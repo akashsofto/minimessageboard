@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
   });
   
   app.post('/new', function(req,res){
-    messages.push({text: req.body.msg, user: req.body.username, added: JSON.stringify(new Date()) });
+    messages.push({text: req.body.msg, user: req.body.username, added:new Date() });
     console.log(messages);
     res.redirect("index.html")
   })
