@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Message Board</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>Notice Board</h1>
+
+    </div>
+    <div>
+    <table id="users">
+        <thead>
+            <tr>
+                <th scope="col">Username</th>
+                <th scope="col">Message</th>
+                <th scope="col">Date</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+
+
+        </tbody>
+    </table>
+
+<script src="./showdata.js"></script>
+    </div>
+
+
+    <div class="container">
+        <form action="/new" method="post">
+            <h1>Type ur message here</h1>
+            <label for="username" id="name">Username</label>
+            <input type="text" name="username"><br>
+            <label for="messagebox" id="name">message box</label>
+            <textarea name="msg" rows= "5" cols="40"  placeholder="Write your message here.." required ></textarea>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+
+    </div>
+</body>
+</html>

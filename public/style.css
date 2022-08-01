@@ -1,0 +1,58 @@
+body{
+    background-color: bisque;
+}
+
+.header {
+    text-align: center;
+    color:#9a7474;
+    overflow: hidden;
+    background-color: #1b0808;
+    padding: 20px 10px;
+    margin-bottom: 5px;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+#users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #users tr:nth-child(even){background-color: #9a7474;}
+  
+  #users tr:hover {background-color: rgb(191, 121, 121);}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  #name{
+    font-size: larger;
+  }
+  .submit{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
