@@ -57,5 +57,5 @@ app.get("/", (req, res) => {
 
 
 app.listen(3500, () => {
-  console.log("server is listening at 6000");
+  console.log("server is listening at 3500");
 });
