@@ -43,11 +43,11 @@ app.get("/", (req, res) => {
 
 
   
-  app.get('/new-message',function(req,res){
+  app.get('/new-message',(req,res)=>{
     res.json(messages)
   });
   
-  app.post('/new', function(req,res){
+  app.post('/new', (req,res)=>{
     messages.push({text: req.body.msg, user: req.body.username, added:new Date() });
     console.log(messages);
     res.redirect("index.html")
